@@ -1,8 +1,15 @@
 .item{
     width: 200px;
+    /* box-shadow: 20px black; */
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+    
+    
 }
-.item-image{
-    width: 180px;
+.item-img{
+    width: 200px;
+    border-radius: 16px;
 }
 .item p{
     margin: 6px 0px;
@@ -11,6 +18,9 @@
     display: flex;
     gap: 20px;
 }
+/* .item-image{
+    wid
+} */
 .item-prices-new{
     color: #374151;
     font-size: 18px;
@@ -25,4 +35,5 @@
 .item:hover{
     transform: scale(1.05);
     transition: 0.6s;
+    box-shadow: 9px 9px 30px rgba(0, 0, 0, 0.295);
 }
